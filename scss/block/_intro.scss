@@ -1,0 +1,140 @@
+.intro {
+    background-color: #D0EAFC;
+}
+
+.iphone_tablet_img,
+.iphone_mobile_img {
+    display: none;
+}
+
+.intro_iphone_img {
+    padding-top: 99px;
+}
+
+.iphone_img {
+    vertical-align: bottom;
+
+}
+
+.intro_title {
+    color: #1E3240;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+
+.intro_title span {
+    width: 101px;
+    height: 45px;
+    border-radius: 500px;
+    border: 11px solid #1E3240;
+    display: inline-block;
+}
+
+.intro_text {
+    color: #1E3240;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.intro_text span {
+    color: #1E3240;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.intro_btn {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #0071E4;
+    display: inline-block;
+    margin-top: 19px;
+    padding: 18px 39px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .intro_title {
+        color: #1E3240;
+        font-size: 59.309px;
+        font-weight: 700;
+    }
+
+    .intro_title span {
+        width: 68.158px;
+        height: 30.466px;
+        display: inline-block;
+        border-radius: 336.98px;
+        border: 7.414px solid #1E3240;
+    }
+
+    .iphone_img {
+        display: none;
+    }
+
+    .iphone_tablet_img {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+
+    .block {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .intro_btn {
+        padding: 18px 40px;
+    }
+
+    .intro_content {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .iphone_mobile_img {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+
+    .iphone_tablet_img {
+        display: none;
+    }
+
+    .intro_title {
+        color: #1E3240;
+        font-size: 37.068px;
+        font-weight: 700;
+    }
+
+    .intro_text {
+        color: #1E3240;
+        font-size: 32px;
+        font-weight: 400;
+    }
+
+    .intro_text span {
+        color: #1E3240;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .block{
+        padding-top: 16px;
+    }
+    .intro_title span {
+        width: 42.599px;
+        height: 19.041px;
+        display: inline-block;
+        border-radius: 210.613px;
+        border: 4.633px solid #1E3240;
+    }
+}

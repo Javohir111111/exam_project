@@ -1,0 +1,113 @@
+.subscribe_container {
+    padding-top: 61px;
+    display: flex;
+    align-items: center;
+    gap: 88px;
+}
+
+.subscribe_title {
+    max-width: 421px;
+    color: #100E0E;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.subscribe_text {
+    margin-bottom: 25px;
+    max-width: 454px;
+    color: #585656;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.input_title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.input_text {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.subscribe_input {
+    padding-top: 16px;
+    padding-left: 40px;
+    padding-bottom: 32px;
+    padding-right: 32px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #F7355D 0.3%, #9747FF 101.33%);
+}
+
+.subscribe_form {
+    max-width: 246px;
+    width: 100%;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.input {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #DBDBDB;
+    background: #FFF;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+}
+
+
+
+
+.input_btn {
+    border-radius: 8px;
+    background-color: #E7E7E7;
+    padding: 14px 24px;
+}
+
+@media screen and (max-width:1050px) {
+    .subscribe_img {
+        max-width: 225px;
+    }
+
+    .subscribe_title {
+        color: #100E0E;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .subscribe_input {
+        padding: 8px 16px;
+        max-width: 289px;
+    }
+
+    .input_title {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .input_text{
+        margin: 0;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .subscribe_text {
+        color: #585656;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .inputs {
+        display: none;
+    }
+}

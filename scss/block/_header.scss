@@ -1,0 +1,130 @@
+.header{
+    padding-top: 10px;
+}
+
+.top_header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+
+.header_select {
+    display: flex;
+    align-items: center;
+}
+
+.header_text {
+    color: #100E0E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_select {
+    border: none;
+    color: #0071E4;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_nav_list {
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+    gap: 22px;
+}
+
+.header_nav_item {
+    color: #100E0E;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_nav_item2 {
+    color: #100E0E;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding: 3px 8px;
+    background-color: #fdefbf;
+    border-radius: 8px;
+
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url(/img/fire.svg);
+        vertical-align: middle;
+        margin-right: 4px;
+    }
+}
+
+
+.header_tel_number {
+    color: #100E0E;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 24px;
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-image: url(/img/phone_img.svg);
+        vertical-align: middle;
+        margin-right: 4px;
+    }
+}
+
+.header_tel_number {
+    color: #100E0E;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_menu{
+    display: none;
+}
+
+.bottom_header_nav {
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+
+
+}
+
+@media screen and (max-width:1237px) {
+    .header_nav_list{
+        display: none;
+    }
+    .bottom_header_nav{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:1155px) {
+    .basket{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .top_header__container{
+        display: none;
+    }
+    .header_nav_list{
+        display: none;
+    }
+    .header_menu{
+        display: inline-block;
+    }
+}

@@ -1,0 +1,109 @@
+.searchbar_btn1 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.searchbar_btn1 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 16px;
+    background: #0071E4;
+    padding: 16px 16px 16px 52px;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        background-image: url(/img/menu-vertical.svg);
+        left: 16px;
+        top: 12px;
+    }
+}
+
+.form{
+    max-width: 594px;
+    width: 100%;
+}
+
+.searchbar_input {
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 56px;
+    border-radius: 8px;
+    border: 1px solid #B7B7B7;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    background-image: url(/img/icons_search.svg);
+    background-position: left 24px top 12px;
+}
+
+.searchbar_btn2 {
+    color: #FFF;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    border-radius: 16px;
+    background-color: #52D116;
+    padding-left: 60px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.basket {
+    display: flex;
+    align-items: center;
+}
+
+
+.hero_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.searchbar_btn2 span {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 32px;
+    background-color: #46C609;
+    padding: 4px 12px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+@media screen and (max-width:1200px) {
+
+    .hero_container{
+        gap: 20px;
+    }
+
+    .basket {
+        display: none;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .searchbar, .searchbar_btn2{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .searchbar, .searchbar_btn2{
+        display: none;
+    }
+}

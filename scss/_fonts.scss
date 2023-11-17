@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/transfonter.org-20231115-100450/SFProDisplay-Medium.woff') format('woff'),
+        url('../fonts/transfonter.org-20231115-100450/SFProDisplay-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/transfonter.org-20231115-100450/SFProDisplay-Regular.woff') format('woff'),
+        url('../fonts/transfonter.org-20231115-100450/SFProDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/transfonter.org-20231115-100450/SFProDisplay-Bold.woff') format('woff'),
+        url('../fonts/transfonter.org-20231115-100450/SFProDisplay-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
